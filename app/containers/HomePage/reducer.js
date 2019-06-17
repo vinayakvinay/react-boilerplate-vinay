@@ -12,7 +12,7 @@ import { UPDATE_USERNAME, LOAD_REPOS } from './constants';
 
 // The initial state of the App
 export const initialState = {
-  username: 'vinay',
+  username: '',
   repos: [],
 };
 

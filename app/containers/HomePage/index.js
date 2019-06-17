@@ -31,15 +31,12 @@ export function HomePage({ username, onChangeUsername, repos }) {
       <input
         id="username"
         type="text"
-        placeholder="mxstbr"
+        placeholder="Fetch Github Repos"
         value={username}
         onChange={onChangeUsername}
       />
-      <button type="button" onClick={onChangeUsername}>
-        Fetch
-      </button>
       <br />
-      {JSON.stringify(repos, null, 2)}
+      {repos.length ? JSON.stringify(repos, null, 2) : ''}
     </div>
   );
 }
