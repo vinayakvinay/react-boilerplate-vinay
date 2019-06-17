@@ -60,6 +60,10 @@ render();
 // it's not most important operation and if main code fails,
 // we do not want it installed
 if (process.env.NODE_ENV === 'production') {
-  /* Enable the line below if you are 100% sure what you are doing */
-  // require('offline-plugin/runtime').install(); // eslint-disable-line global-require
+  /**
+   * Enable the line below if you are 100% sure what you are doing
+   * Invoke .install() method as given below
+   * require('offline-plugin/runtime').install();
+   */
+  require('offline-plugin/runtime'); // eslint-disable-line global-require
 }
