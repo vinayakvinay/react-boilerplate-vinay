@@ -36,7 +36,7 @@ export function HomePage({ username, onChangeUsername, repos }) {
         onChange={onChangeUsername}
       />
       <br />
-      {repos.length ? JSON.stringify(repos, null, 2) : ''}
+      <pre>{repos.length ? JSON.stringify(repos, null, 2) : ''}</pre>
     </div>
   );
 }
