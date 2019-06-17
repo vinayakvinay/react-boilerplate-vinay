@@ -5,6 +5,7 @@ node_modules
 stats.json
 package-lock.json
 yarn.lock
+environment.js
 
 # Cruft
 .DS_Store
