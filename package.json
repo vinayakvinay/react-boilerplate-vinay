@@ -1,6 +1,6 @@
 {
-  "name": "react-boilerplate",
-  "version": "4.0.0",
+  "name": "vz-react-boilerplate",
+  "version": "1.0.0",
   "description": "A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices",
   "repository": {
     "type": "git",
@@ -10,7 +10,7 @@
     "npm": ">=5",
     "node": ">=8.15.1"
   },
-  "author": "Max Stoiber",
+  "author": "Vinay",
   "license": "MIT",
   "scripts": {
     "analyze:clean": "rimraf stats.json",
@@ -66,7 +66,6 @@
     "history": "4.9.0",
     "hoist-non-react-statics": "3.3.0",
     "immer": "3.0.0",
-    "intl": "1.2.5",
     "invariant": "2.2.4",
     "ip": "1.1.5",
     "lodash": "4.17.11",
@@ -74,8 +73,6 @@
     "prop-types": "15.7.2",
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "react-helmet": "6.0.0-beta",
-    "react-intl": "2.8.0",
     "react-redux": "7.0.2",
     "react-router-dom": "5.0.0",
     "redux": "4.0.1",
@@ -130,10 +127,8 @@
     "jest-styled-components": "6.3.1",
     "lint-staged": "8.1.5",
     "ngrok": "3.1.1",
-    "node-plop": "0.18.0",
     "null-loader": "0.1.1",
     "offline-plugin": "5.0.6",
-    "plop": "2.3.0",
     "pre-commit": "1.2.2",
     "prettier": "1.17.0",
     "react-app-polyfill": "0.2.2",
